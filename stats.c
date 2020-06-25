@@ -81,7 +81,7 @@ unsigned char find_maximum(unsigned char* arr,int n ){
 } 
 
 unsigned char find_minimum(unsigned char* arr,int n ){
-	unsigned char min = 0 ;
+	unsigned char min = arr[0] ;
 	int i;
 	for(i = 0; i < n; i++ ){
 		if(arr[i]>min)
