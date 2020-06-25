@@ -40,7 +40,7 @@ void main() {
 }
 
 unsigned char find_mean(unsigned char* arr, int n){
-	unsigned char sum = 0;
+	int sum = 0;
 	int i ;
 	for(i = 0; i<n ; i++ ){
 		sum += arr[i];
